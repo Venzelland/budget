@@ -9,6 +9,7 @@ const PORT = 5000;
 app.use(cors());
 app.use(express.json());
 
+
 // Подключение к MongoDB
 mongoose.connect('mongodb://localhost:27017/budget', {
     useNewUrlParser: true,
